@@ -697,7 +697,7 @@ section,
   min-height: 400px; /* Chiều cao tối thiểu */
   overflow: hidden;
   position: relative;
-  background-image: url(/WorldStudentFestival/assets/img/bgheader.png);
+  background-image: url(../img/bgheader.png);
   background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ nền */
   background-repeat: no-repeat; /* Không lặp lại hình ảnh */
   background-position: center; /* Đặt hình ảnh ở trung tâm */
@@ -790,6 +790,15 @@ section,
 @media (max-width: 768px) {
   .hero .carousel-container {
     min-width: 60%;
+  }
+
+  .hero {
+    background-size: contain;
+    height: auto;
+    min-height: 0.6;
+  }
+  .hero .dark-background {
+    background-color: #fff;
   }
 
   .hero h2 {

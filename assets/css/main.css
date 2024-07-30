@@ -950,8 +950,8 @@ section,
 }
 /* hiệu ứng hover box1 */
 .features .box4:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--accent-color-orange);
+  border-color: var(--accent-color-orange);
 }
 /* hiệu ứng hover box2 */
 .features .box2:hover {
@@ -965,14 +965,14 @@ section,
 }
 /* hiệu ứng hover box4 */
 .features .box1:hover {
-  color: var(--accent-color-orange);
-  border-color: var(--accent-color-orange);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 /* hiệu ứng hover box1 */
 .features .nav-link.active.box4 {
-  background: var(--accent-color);
+  background: var(--accent-color-orange);
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: var(--accent-color-orange);
 }
 /* hiệu ứng hover box2 */
 .features .nav-link.active.box2 {
@@ -982,13 +982,13 @@ section,
 }
 /* hiệu ứng hover box3 */
 .features .nav-link.active.box3 {
-  background: var(--accent-color-green);
+  background: var(--accent-color);
   color: var(--contrast-color);
   border-color: var(--accent-color);
 }
 /* hiệu ứng hover box4 */
 .features .nav-link.active.box1 {
-  background: var(--accent-color-orange);
+  background: var(--accent-color);
   color: var(--contrast-color);
   border-color: var(--accent-color);
 }
